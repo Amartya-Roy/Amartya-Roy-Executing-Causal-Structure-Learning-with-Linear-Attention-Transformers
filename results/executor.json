@@ -1,0 +1,134 @@
+{
+  "equivalence": {
+    "cases": 254,
+    "skipped_overflow": 1,
+    "worst_rel_W": 2.9924491062709505e-15,
+    "worst_rel_alpha": 1.1330704170059436e-13
+  },
+  "bridge_to_arithmetic_implementation": {
+    "cases": 180,
+    "worst_rel_W": 1.887379141862766e-15
+  },
+  "invariances": {
+    "permutation_equivariance": 0.0,
+    "padding_same_p_various_pmax": {
+      "8": 5.551115123125783e-17,
+      "16": 1.1102230246251565e-16,
+      "32": 1.1102230246251565e-16
+    }
+  },
+  "cost": [
+    {
+      "p_max": 8,
+      "N": 8,
+      "s": 3,
+      "depth": 14,
+      "depth_formula_2s+8": 14,
+      "max_heads_per_layer": 4,
+      "max_key_dim": 8,
+      "width": 122,
+      "width_formula_13pmax+18": 122,
+      "max_relu_units": 244,
+      "max_bilinear_units": 17,
+      "nonzero_magnitudes": [
+        0.125,
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "p_max": 16,
+      "N": 16,
+      "s": 4,
+      "depth": 16,
+      "depth_formula_2s+8": 16,
+      "max_heads_per_layer": 4,
+      "max_key_dim": 16,
+      "width": 226,
+      "width_formula_13pmax+18": 226,
+      "max_relu_units": 452,
+      "max_bilinear_units": 33,
+      "nonzero_magnitudes": [
+        0.0625,
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "p_max": 20,
+      "N": 32,
+      "s": 5,
+      "depth": 18,
+      "depth_formula_2s+8": 18,
+      "max_heads_per_layer": 4,
+      "max_key_dim": 20,
+      "width": 278,
+      "width_formula_13pmax+18": 278,
+      "max_relu_units": 556,
+      "max_bilinear_units": 41,
+      "nonzero_magnitudes": [
+        0.03125,
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "p_max": 32,
+      "N": 32,
+      "s": 5,
+      "depth": 18,
+      "depth_formula_2s+8": 18,
+      "max_heads_per_layer": 4,
+      "max_key_dim": 32,
+      "width": 434,
+      "width_formula_13pmax+18": 434,
+      "max_relu_units": 868,
+      "max_bilinear_units": 65,
+      "nonzero_magnitudes": [
+        0.03125,
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "p_max": 64,
+      "N": 64,
+      "s": 6,
+      "depth": 20,
+      "depth_formula_2s+8": 20,
+      "max_heads_per_layer": 4,
+      "max_key_dim": 64,
+      "width": 850,
+      "width_formula_13pmax+18": 850,
+      "max_relu_units": 1700,
+      "max_bilinear_units": 129,
+      "nonzero_magnitudes": [
+        0.015625,
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "p_max": 128,
+      "N": 128,
+      "s": 7,
+      "depth": 22,
+      "depth_formula_2s+8": 22,
+      "max_heads_per_layer": 4,
+      "max_key_dim": 128,
+      "width": 1682,
+      "width_formula_13pmax+18": 1682,
+      "max_relu_units": 3364,
+      "max_bilinear_units": 257,
+      "nonzero_magnitudes": [
+        0.0078125,
+        1.0,
+        2.0
+      ]
+    }
+  ],
+  "timing": {
+    "p_max": 20,
+    "seconds_per_forward_pass": 0.002280202100018869
+  }
+}
